@@ -32,7 +32,7 @@ footer {
     color:#00ffee; /* Establece el color del texto */
     text-decoration: none; /* Quita la subrayado predeterminado */
 }
-a, button{
+a, .cv{
     color: rgb(255, 255, 255); /* Establece el color del texto */
     text-decoration: none; /* Quita la subrayado predeterminado */
     font-size: 1.5rem;
@@ -47,12 +47,12 @@ a, button{
                 -2px 2px 0 #000,
                 2px 2px 0 #000; /* Contorno negro más grueso */
 }
-button{
+.cv{
     border-radius: 3rem;
     margin: .5rem;
     padding: .5rem;
 }
-button:hover {
+.cv:hover {
     background-color: #8332d3; /* Color de fondo al pasar el cursor */
 }
 #menu{
