@@ -143,6 +143,7 @@ main {
     display: block;
 }
 .cj-2>#pp{
+
     width: 100%;
     height: 70%;
     border-radius: 50%;
@@ -159,7 +160,9 @@ p{
 /* Ajustes responsivos */
 @media (max-width: 780px) {
     .cj-1 {
-        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Cambia a columna en pantallas pequeñas */
         height: auto;
     }
     .cj-1-e {
@@ -170,7 +173,7 @@ p{
     }
     .cj-2 {
         width: 100%; /* Ajusta el ancho a 100% en pantallas pequeñas */
-        margin: 1rem 0;
+        margin: 4rem 0;
     }
 
     .cj-1-1 {
@@ -178,7 +181,15 @@ p{
         height: auto;
     }
     
-    
+    .cj-2>#img{
+        width: 80%; /* Ajusta el tamaño en porcentaje para reducir la imagen */
+        height: 50%; /* Mantén la proporción de la imagen */
+        border-radius: 2rem;
+        border: #ffffff solid .2rem;
+        display: block; /* Asegura que el elemento se comporte como un bloque */
+        margin-left: auto; /* Centra horizontalmente */
+        margin-right: auto; /* Centra horizontalmente */
+    }
 
     .cj-2-1{
         width: 100%; /* Ajusta el ancho a 100% en pantallas pequeñas */
@@ -196,6 +207,17 @@ p{
         padding: 3%;
         border: #8332d3 solid .2rem;
         border-radius: 1rem;
+    }
+    
+    .cj-2>#pp {
+        width: 55%; /* Ajusta el tamaño en porcentaje para reducir la imagen */
+        height: 50%; /* Mantén la proporción de la imagen */
+        border-radius: 2rem;
+        border: #ffffff solid .2rem;
+        display: block; /* Asegura que el elemento se comporte como un bloque */
+        margin-left: auto; /* Centra horizontalmente */
+        margin-right: auto; /* Centra horizontalmente */
+        
     }
 }
 
