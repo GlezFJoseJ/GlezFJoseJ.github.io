@@ -210,8 +210,7 @@ p{
     }
     
     .cj-2>#pp {
-        width: 55%; /* Ajusta el tamaño en porcentaje para reducir la imagen */
-        height: 50%; /* Mantén la proporción de la imagen */
+        width: 60%; /* Ajusta el tamaño en porcentaje para reducir la imagen */
         border-radius: 2rem;
         border: #ffffff solid .2rem;
         display: block; /* Asegura que el elemento se comporte como un bloque */
