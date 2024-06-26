@@ -51,6 +51,7 @@ a, .cv{
     border-radius: 3rem;
     margin: .5rem;
     padding: .5rem;
+    
 }
 .cv:hover {
     background-color: #8332d3; /* Color de fondo al pasar el cursor */
@@ -313,10 +314,10 @@ p{
     height: min-content;
     width: 10%;
     margin: 3%;
+    transition: transform 0.3s ease-in-out;
 }
 .zoom:hover{
-    width: 15%; /* Tamaño al pasar el cursor */
-    height: 15%; /* Altura al pasar el cursor */
+    transform: scale(1.2);
 }
 .xx{
    font-size: 1.7rem;
